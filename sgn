@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>index</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="navbar">
+			<img src="https://via.placeholder.com/100x100" class="logo">
+			<ul>
+				<li><a href="#">Men</a>
+				<div class="options">
+					<ul>
+				      <li>
+						<a href="#">Jeans</a>
+						<a href="#">Shirts</a>
+						<a href="#">T-Shirts</a>
+						   </li>
+					</ul>
+				</div>
+				</li>
+				<li><a href="#">Women</a></li>
+				<li><a href="#">Jewelry</a></li>
+			</ul>
+			
+			<div class="col search-bar">
+           		<input type="text" placeholder="Search">
+            		<button>
+                		<img src="https://via.placeholder.com/20x20" alt="Search Icon">
+            		</button>
+       		 	</div>
+			
+			<ul>
+				<li><a href="#">Account</a></li>
+			</ul>
+			
+			<div class="col shopping-cart-icon">
+            	<img src="https://via.placeholder.com/100x100" alt="shopping cart icon">
+        	</div>
+		</div>
+	
+	<div class="row">
+		<div class="column">
+	<div class="sign-in-container">
+        <h1>SIGN IN</h1>
+        <form>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+
+            <button type="submit">SIGN IN</button>
+        </form>
+    </div>
+</div>
+		
+	<div class="divid">
+		</div>	
+		
+	<div class="column">
+	<div class="signin-container">
+        <h1>SIGN IN</h1>
+        <div class="alternative-signin">
+			<img src="https://via.placeholder.com/50" alt="Google Logo">
+            <button class="google">Sign In with Google</button>
+        </div>
+
+        <div class="alternative-signin">
+			<img src="https://via.placeholder.com/50" alt="Google Logo">
+            <button class="google">Sign In with Facebook</button>
+        </div>
+		
+		<div class="alternative-signin">
+			<img src="https://via.placeholder.com/50" alt="Google Logo">
+            <button class="google">Sign In with Apple</button>
+        </div>
+		
+		<div class="alternative-signin">
+			<img src="https://via.placeholder.com/50" alt="Google Logo">
+            <button class="google">Sign In with Gmail</button>
+        </div>
+    </div>
+</div>
+</div>
+
+	
+</body>
+</html>
