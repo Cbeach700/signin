@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.custom-alignment {
+	align-content: center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.btn-primary{
+	background-color: #7B5A48;
+	border-color: #7B5A48
+}
